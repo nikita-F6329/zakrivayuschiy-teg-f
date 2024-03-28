@@ -163,7 +163,7 @@
   object-position: center;
 }
 
-.wrapper{
+.wrapper {
   position: relative;
 }
 
@@ -181,6 +181,10 @@
   inset-block-start: 25px;
   inset-inline-end: clamp(11px, calc(10 / 375 * 100vw), 25px);
   mix-blend-mode: hard-light;
+}
+
+.filter-shadow {
+  filter: sepia(1.20);
 }
 
 .clean-filter {
@@ -239,13 +243,13 @@
   content: "<experience>";
 }
 
-/* @supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+@supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .wrapper::before {
         text-shadow: none;
     -webkit-text-stroke: 1px var(--bg-color);
         text-stroke: 1px var(--bg-color);
   }
-} */
+}
 
 .box {
   border-top: 2px solid var(--accent-color);
