@@ -12,3 +12,51 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes arrow {
+  from {
+    transform: translateX(0);
+  }
+  
+  to {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes core {
+  to {
+    fill: var(--heart-color);
+  }
+}
+
+@keyframes main-body {
+  to {
+    fill: var(--heart-color);
+  }
+}
+
+@keyframes contour {
+  to {
+    fill: var(--heart-color);
+  }
+}
+
+@keyframes heart {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

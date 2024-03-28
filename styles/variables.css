@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --bg-color: #FFFFFF;
+  --gr-color-main: #e7e7e7;
+  --gr-color-main-end: #1a1a1a;
+  --gr-color: #d3d3d3;
+  --accent-color: #000000;
+  --btn-color: #FFFFFF;
+  --heart-color: #FF0000;
+  --main-fonts: "Inter-Variable";
+  --accent-fonts: "PressStart2P-Regular";
+  --text-weight: 400;
+  --title-weight: 700;
+  --register-text: uppercase;
+}
