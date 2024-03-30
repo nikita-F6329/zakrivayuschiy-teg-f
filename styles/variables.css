@@ -13,4 +13,5 @@
   --text-weight: 400;
   --title-weight: 700;
   --register-text: uppercase;
+  --content-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
